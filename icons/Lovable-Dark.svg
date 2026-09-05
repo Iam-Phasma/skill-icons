@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="tile-radius">
+      <rect width="256" height="256" rx="60"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile-radius)">
+    <rect width="256" height="256" fill="#242938"/>
+    <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1MS4wODMgMGM4My40MTMgMCAxNTEuMDYxIDY3LjgxOSAxNTEuMDYxIDE1MS40Njd2NTcuNmg1MC4yODNjODMuNDEzIDAgMTUxLjA4MiA2Ny43OTcgMTUxLjA4MiAxNTEuNDY2IDAgODMuNjkxLTY3LjYyNiAxNTEuNDY3LTE1MS4wODIgMTUxLjQ2N0gwVjE1MS40NjdDMCA2Ny44NCA2Ny42MjcgMCAxNTEuMDgzIDB6IiBmaWxsPSJ1cmwoI3ByZWZpeF9fcGFpbnQwX3JhZGlhbF81XzI3KSIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0icHJlZml4X19wYWludDBfcmFkaWFsXzVfMjciIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJyb3RhdGUoOTIuNTQ1IDExOC43MjQgMTc0Ljg0NCkgc2NhbGUoNDgwLjQ3NCA2NTAuMzI1KSI+PHN0b3Agb2Zmc2V0PSIuMjUiIHN0b3AtY29sb3I9IiNGRTdCMDIiLz48c3RvcCBvZmZzZXQ9Ii40MzMiIHN0b3AtY29sb3I9IiNGRTQyMzAiLz48c3RvcCBvZmZzZXQ9Ii41NDgiIHN0b3AtY29sb3I9IiNGRTUyOUEiLz48c3RvcCBvZmZzZXQ9Ii42NTQiIHN0b3AtY29sb3I9IiNERDY3RUUiLz48c3RvcCBvZmZzZXQ9Ii45NSIgc3RvcC1jb2xvcj0iIzRCNzNGRiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==" x="24" y="24" width="208" height="208" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>
