@@ -267,6 +267,13 @@ function main() {
     process.exit(build.status || 1);
   }
 
+  const readmeSync = spawnSync(process.execPath, ['scripts/sync-readme-icons-list.js'], {
+    stdio: 'inherit',
+  });
+  if (readmeSync.status !== 0) {
+    process.exit(readmeSync.status || 1);
+  }
+
   if (shouldCleanup) {
     let removed = 0;
     for (const target of targets) {

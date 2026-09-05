@@ -12,7 +12,8 @@
 		"icons:batch": "node scripts/generate-and-build-icons.js",
 		"icons:radius": "node scripts/generate-radius-icons.js",
 		"icons:radius:batch": "node scripts/generate-and-build-radius-icons.js",
-		"icons:upload:batch": "node scripts/generate-uploading-icons.js"
+		"icons:upload:batch": "node scripts/generate-uploading-icons.js",
+		"icons:readme:sync": "node scripts/sync-readme-icons-list.js"
 	},
 	"devDependencies": {
 		"@cloudflare/wrangler": "^1.19.8",
