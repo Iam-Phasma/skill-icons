@@ -109,13 +109,17 @@ Rules used by the generator:
 
 # Icons List
 
-Here's a list of all the icons currently supported.
+Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!
+
+<a id="icons-jump"></a>
 
 Jump to:
-[A](#icons-a) • [B](#icons-b) • [C](#icons-c) • [D](#icons-d) • [E](#icons-e) • [F](#icons-f) • [G](#icons-g) • [H](#icons-h) • [I](#icons-i) • [J](#icons-j) • [K](#icons-k) • [L](#icons-l) • [M](#icons-m) • [N](#icons-n) • [O](#icons-o) • [P](#icons-p) • [Q](#icons-q) • [R](#icons-r) • [S](#icons-s) • [T](#icons-t) • [U](#icons-u) • [V](#icons-v) • [W](#icons-w) • [X](#icons-x) • [Y](#icons-y) • [Z](#icons-z)
+[A](#icons-a) | [B](#icons-b) | [C](#icons-c) | [D](#icons-d) | [E](#icons-e) | [F](#icons-f) | [G](#icons-g) | [H](#icons-h) | [I](#icons-i) | [J](#icons-j) | [K](#icons-k) | [L](#icons-l) | [M](#icons-m) | [N](#icons-n) | [O](#icons-o) | [P](#icons-p) | [Q](#icons-q) | [R](#icons-r) | [S](#icons-s) | [T](#icons-t) | [U](#icons-u) | [V](#icons-v) | [W](#icons-w) | [X](#icons-x) | [Y](#icons-y) | [Z](#icons-z)
 
 <a id="icons-a"></a>
 ## A
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -147,6 +151,8 @@ Jump to:
 <a id="icons-b"></a>
 ## B
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `babel` | <img src="./icons/Babel.svg" width="48"> |
@@ -160,6 +166,8 @@ Jump to:
 
 <a id="icons-c"></a>
 ## C
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -184,6 +192,8 @@ Jump to:
 <a id="icons-d"></a>
 ## D
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `d3` | <img src="./icons/D3-Light.svg" width="48"> |
@@ -203,6 +213,8 @@ Jump to:
 <a id="icons-e"></a>
 ## E
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `eclipse` | <img src="./icons/Eclipse-Light.svg" width="48"> |
@@ -219,6 +231,8 @@ Jump to:
 <a id="icons-f"></a>
 ## F
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `fastapi` | <img src="./icons/FastAPI.svg" width="48"> |
@@ -232,6 +246,8 @@ Jump to:
 
 <a id="icons-g"></a>
 ## G
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -258,6 +274,8 @@ Jump to:
 <a id="icons-h"></a>
 ## H
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `haskell` | <img src="./icons/Haskell-Light.svg" width="48"> |
@@ -272,6 +290,8 @@ Jump to:
 <a id="icons-i"></a>
 ## I
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `idea` | <img src="./icons/Idea-Light.svg" width="48"> |
@@ -281,6 +301,8 @@ Jump to:
 
 <a id="icons-j"></a>
 ## J
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -294,6 +316,8 @@ Jump to:
 <a id="icons-k"></a>
 ## K
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `kafka` | <img src="./icons/Kafka.svg" width="48"> |
@@ -304,6 +328,8 @@ Jump to:
 
 <a id="icons-l"></a>
 ## L
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -318,6 +344,8 @@ Jump to:
 
 <a id="icons-m"></a>
 ## M
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -335,6 +363,8 @@ Jump to:
 
 <a id="icons-n"></a>
 ## N
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -354,6 +384,8 @@ Jump to:
 <a id="icons-o"></a>
 ## O
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `obsidian` | <img src="./icons/Obsidian-Light.svg" width="48"> |
@@ -365,6 +397,8 @@ Jump to:
 
 <a id="icons-p"></a>
 ## P
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -394,6 +428,8 @@ Jump to:
 <a id="icons-q"></a>
 ## Q
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `qt` | <img src="./icons/QT-Light.svg" width="48"> |
@@ -401,6 +437,8 @@ Jump to:
 
 <a id="icons-r"></a>
 ## R
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -426,6 +464,8 @@ Jump to:
 
 <a id="icons-s"></a>
 ## S
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -454,6 +494,8 @@ Jump to:
 <a id="icons-t"></a>
 ## T
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `tailwindcss` | <img src="./icons/TailwindCSS-Light.svg" width="48"> |
@@ -467,6 +509,8 @@ Jump to:
 <a id="icons-u"></a>
 ## U
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `ubuntu` | <img src="./icons/Ubuntu-Light.svg" width="48"> |
@@ -475,6 +519,8 @@ Jump to:
 
 <a id="icons-v"></a>
 ## V
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -494,6 +540,8 @@ Jump to:
 <a id="icons-w"></a>
 ## W
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `webassembly` | <img src="./icons/WebAssembly.svg" width="48"> |
@@ -508,12 +556,16 @@ Jump to:
 <a id="icons-x"></a>
 ## X
 
+[Back to top](#icons-jump)
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `xd` | <img src="./icons/XD.svg" width="48"> |
 
 <a id="icons-y"></a>
 ## Y
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
@@ -522,6 +574,8 @@ Jump to:
 
 <a id="icons-z"></a>
 ## Z
+
+[Back to top](#icons-jump)
 
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |

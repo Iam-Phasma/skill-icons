@@ -61,6 +61,7 @@ function buildIconsTable(icons) {
 }
 
 function buildGroupedIconsContent(icons) {
+  const JUMP_ANCHOR = 'icons-jump';
   const grouped = new Map();
 
   for (const icon of icons) {
@@ -83,6 +84,8 @@ function buildGroupedIconsContent(icons) {
     .join(' | ');
 
   const lines = [];
+  lines.push(`<a id="${JUMP_ANCHOR}"></a>`);
+  lines.push('');
   lines.push('Jump to:');
   lines.push(jumpLinks || 'No icons found.');
 
@@ -91,6 +94,8 @@ function buildGroupedIconsContent(icons) {
     lines.push('');
     lines.push(`<a id="${anchor}"></a>`);
     lines.push(`## ${key}`);
+    lines.push('');
+    lines.push(`[Back to top](#${JUMP_ANCHOR})`);
     lines.push('');
     lines.push(buildIconsTable(grouped.get(key)));
   }
