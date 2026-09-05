@@ -15,6 +15,7 @@
 - [Icons Per Line](#icons-per-line)
 - [Centering Icons](#centering-icons)
 - [Batch Icon Generation](#batch-icon-generation)
+- [Radius-Only Icons](#radius-only-icons)
 - [Icons List](#icons-list)
 
 # Example
@@ -94,6 +95,35 @@ This command does all of the following:
 2. Creates `Name-Dark.svg` and `Name-Light.svg` in `icons/`.
 3. Applies rounded corners (`--radius`) and inner spacing (`--padding`).
 4. Runs the build step to refresh `dist/icons.json`.
+5. Deletes processed source files from `incoming-icons/` after a successful run.
+
+Add `--no-cleanup` if you want to keep source files:
+
+```bash
+npm run icons:batch -- --input incoming-icons --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED' --no-cleanup
+```
+
+# Radius-Only Icons
+
+For icons that should not have a dark/light backdrop (for example, logos that already include their own background), put source files in `incoming-radius-icons/`, then run:
+
+```bash
+npm run icons:radius:batch -- --input incoming-radius-icons --output icons --size 256 --radius 60 --padding 0
+```
+
+This command:
+
+1. Converts each source file into a single icon SVG (`Name.svg`).
+2. Applies rounded corners only.
+3. Keeps the original image colors/background intact.
+4. Runs the build step to refresh `dist/icons.json`.
+5. Deletes processed source files from `incoming-radius-icons/` after a successful run.
+
+Add `--no-cleanup` if you want to keep source files:
+
+```bash
+npm run icons:radius:batch -- --input incoming-radius-icons --output icons --size 256 --radius 60 --padding 0 --no-cleanup
+```
 
 # Icons List
 

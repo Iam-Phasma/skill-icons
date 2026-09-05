@@ -50,7 +50,7 @@ const isDryRun = Boolean(parsedArgs['dry-run']);
 
 const generate = spawnSync(
   process.execPath,
-  ['scripts/generate-themed-icons.js', ...args],
+  ['scripts/generate-radius-icons.js', ...args],
   { stdio: 'inherit' }
 );
 

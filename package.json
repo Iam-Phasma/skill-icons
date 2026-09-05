@@ -9,7 +9,9 @@
 		"deploy": "node build.js && wrangler publish",
 		"icons:generate": "node scripts/generate-themed-icons.js",
 		"icons:dry-run": "node scripts/generate-themed-icons.js --dry-run",
-		"icons:batch": "node scripts/generate-and-build-icons.js"
+		"icons:batch": "node scripts/generate-and-build-icons.js",
+		"icons:radius": "node scripts/generate-radius-icons.js",
+		"icons:radius:batch": "node scripts/generate-and-build-radius-icons.js"
 	},
 	"devDependencies": {
 		"@cloudflare/wrangler": "^1.19.8",
