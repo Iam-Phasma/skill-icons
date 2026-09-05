@@ -119,8 +119,6 @@ Jump to:
 <a id="icons-a"></a>
 ## A
 
-[Back to top](#icons-jump)
-
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `ableton` | <img src="./icons/Ableton-Light.svg" width="48"> |
