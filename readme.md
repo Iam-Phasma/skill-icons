@@ -3,127 +3,79 @@
 <h3 align="center">Showcase your skills on your GitHub or resumé with ease!</h3>
 <hr>
 
-<h3 align="center">Powered by Cloudflare Workers ⚡</h3>
+# Credits
 
-<h3>NOTE: To keep icons consistent and to ensure browser support, we don't accept pull requests for icon submissions. If you would like an icon added, please open an issue.<h3>
+This project is based on the original work by [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons).
 
-# Docs
+# What This Fork Is For
 
-- [Example](#example)
-- [Specifying Icons](#specifying-icons)
-- [Themed Icons](#themed-icons)
-- [Icons Per Line](#icons-per-line)
-- [Centering Icons](#centering-icons)
-- [Batch Icon Generation](#batch-icon-generation)
-- [Radius-Only Icons](#radius-only-icons)
-- [Icons List](#icons-list)
+This fork is focused on custom icon management so anyone can:
 
-# Example
+1. Use icons directly from this repository in GitHub READMEs.
+2. Add new icons in batches from image files.
+3. Generate themed and non-themed icon variants with consistent radius and padding.
 
-<p align="center"><img align="center" src="./.github/example-dark.png#gh-dark-mode-only"/></p>
-<p align="center"><img align="center" src="./.github/example-light.png#gh-light-mode-only"/></p>
+# Use Icons In Your README
 
-# Specifying Icons
+You can use icons by linking directly to files in this repository.
 
-Copy and paste the code block below into your readme to add the skills icon element!
-
-Change the `?i=js,html,css` to a list of your skills separated by ","s! You can find a full list of icons [here](#icons-list).
-
-```md
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
-```
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
-
-# Themed Icons
-
-Some icons have a dark and light themed background. You can specify which theme you want as a url parameter.
-
-This is optional. The default theme is dark.
-
-Change the `&theme=light` to either `dark` or `light`. The theme is the background color, so light theme has a white icon background, and dark has a black-ish.
-
-**Light Theme Example:**
-
-```md
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
-```
-
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
-
-# Icons Per Line
-
-You can specify how many icons you would like per line! It's an optional argument, and the default is 15.
-
-Change the `&perline=3` to any number between 1 and 50.
-
-```md
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-```
-
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-
-# Centering Icons
-
-Want to center the icons in your readme? The SVGs are automatically resized, so you can do it the same way you'd normally center an image.
+Example (raw GitHub URL):
 
 ```html
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
-  </a>
-</p>
+<img src="https://raw.githubusercontent.com/Iam-Phasma/skill-icons/main/icons/Perplexity.svg" width="48" />
+<img src="https://raw.githubusercontent.com/Iam-Phasma/skill-icons/main/icons/Gemini-Dark.svg#gh-dark-mode-only" width="48" />
+<img src="https://raw.githubusercontent.com/Iam-Phasma/skill-icons/main/icons/Gemini-Light.svg#gh-light-mode-only" width="48" />
 ```
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
-  </a>
-</p>
+Example (jsDelivr URL):
 
-# Batch Icon Generation
+```html
+<img src="https://cdn.jsdelivr.net/gh/Iam-Phasma/skill-icons@main/icons/Perplexity.svg" width="48" />
+```
 
-Drop source image files (`.webp`, `.png`, `.jpg`, `.jpeg`, or `.svg`) into `incoming-icons/`, then run:
+# Fork And Add Your Own Icons
+
+1. Fork this repository.
+2. Clone your fork.
+3. Add source images into one of the import folders.
+4. Run one command to generate and rebuild icon metadata.
+5. Use your own fork URL in your profile README.
+
+## Themed Icon Import
+
+Use this for icons that need dark/light variants.
+
+1. Put files in `incoming-icons/`.
+2. Run:
 
 ```bash
 npm run icons:batch -- --input incoming-icons --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED'
 ```
 
-This command does all of the following:
+This generates `Name-Dark.svg` and `Name-Light.svg`, rebuilds `dist/icons.json`, and deletes processed source files after success.
 
-1. Converts each source file into themed SVG icon tiles.
-2. Creates `Name-Dark.svg` and `Name-Light.svg` in `icons/`.
-3. Applies rounded corners (`--radius`) and inner spacing (`--padding`).
-4. Runs the build step to refresh `dist/icons.json`.
-5. Deletes processed source files from `incoming-icons/` after a successful run.
+Add `--no-cleanup` to keep source files.
 
-Add `--no-cleanup` if you want to keep source files:
+## Radius-Only Icon Import
 
-```bash
-npm run icons:batch -- --input incoming-icons --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED' --no-cleanup
-```
+Use this for icons that already include their own background and only need rounded corners.
 
-# Radius-Only Icons
-
-For icons that should not have a dark/light backdrop (for example, logos that already include their own background), put source files in `incoming-radius-icons/`, then run:
+1. Put files in `incoming-radius-icons/`.
+2. Run:
 
 ```bash
 npm run icons:radius:batch -- --input incoming-radius-icons --output icons --size 256 --radius 60 --padding 0
 ```
 
-This command:
+This generates `Name.svg`, rebuilds `dist/icons.json`, and deletes processed source files after success.
 
-1. Converts each source file into a single icon SVG (`Name.svg`).
-2. Applies rounded corners only.
-3. Keeps the original image colors/background intact.
-4. Runs the build step to refresh `dist/icons.json`.
-5. Deletes processed source files from `incoming-radius-icons/` after a successful run.
+Add `--no-cleanup` to keep source files.
 
-Add `--no-cleanup` if you want to keep source files:
+# Icon Naming Notes
 
-```bash
-npm run icons:radius:batch -- --input incoming-radius-icons --output icons --size 256 --radius 60 --padding 0 --no-cleanup
-```
+1. The icon ID is the lowercase filename (without extension).
+2. Use `Name-Dark.svg` and `Name-Light.svg` for themed pairs.
+3. Use `Name.svg` for non-themed icons.
 
 # Icons List
 
