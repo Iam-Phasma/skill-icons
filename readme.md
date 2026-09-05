@@ -37,45 +37,58 @@ Example (jsDelivr URL):
 
 1. Fork this repository.
 2. Clone your fork.
-3. Add source images into one of the import folders.
+3. Add source images into one of the upload folders.
 4. Run one command to generate and rebuild icon metadata.
 5. Use your own fork URL in your profile README.
 
-## Themed Icon Import
+## Quick Start
 
-Use this for icons that need dark/light variants.
+1. Drop image files (`.webp`, `.png`, `.jpg`, `.jpeg`, or `.svg`) into one of these folders:
 
-1. Put files in `incoming-icons/`.
+```text
+uploading/
+	themed/
+	light-only/
+	dark-only/
+```
+
 2. Run:
 
 ```bash
-npm run icons:batch -- --input incoming-icons --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED'
+npm run icons:upload:batch -- --upload-root uploading --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED'
 ```
 
-This generates `Name-Dark.svg` and `Name-Light.svg`, rebuilds `dist/icons.json`, and deletes processed source files after success.
+3. Commit generated files from `icons/`.
 
-Add `--no-cleanup` to keep source files.
+## One Command For All Upload Folders
 
-## Radius-Only Icon Import
-
-Use this for icons that already include their own background and only need rounded corners.
-
-1. Put files in `incoming-radius-icons/`.
-2. Run:
+Use one command to process all upload queues at once:
 
 ```bash
-npm run icons:radius:batch -- --input incoming-radius-icons --output icons --size 256 --radius 60 --padding 0
+npm run icons:upload:batch -- --upload-root uploading --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED'
 ```
 
-This generates `Name.svg`, rebuilds `dist/icons.json`, and deletes processed source files after success.
+Folder behavior:
+
+1. `uploading/themed/` generates `Name-Dark.svg` and `Name-Light.svg`.
+2. `uploading/light-only/` generates `Name-Light.svg` only.
+3. `uploading/dark-only/` generates `Name-Dark.svg` only.
+
+This command also rebuilds `dist/icons.json` and deletes processed upload files after success.
 
 Add `--no-cleanup` to keep source files.
+
+Use `--dry-run` to preview outputs without generating files:
+
+```bash
+npm run icons:upload:batch -- --upload-root uploading --dry-run
+```
 
 # Icon Naming Notes
 
 1. The icon ID is the lowercase filename (without extension).
 2. Use `Name-Dark.svg` and `Name-Light.svg` for themed pairs.
-3. Use `Name.svg` for non-themed icons.
+3. Use `Name-Light.svg` or `Name-Dark.svg` when adding single-theme variants.
 
 # Icons List
 
