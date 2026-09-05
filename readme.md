@@ -14,6 +14,7 @@
 - [Themed Icons](#themed-icons)
 - [Icons Per Line](#icons-per-line)
 - [Centering Icons](#centering-icons)
+- [Batch Icon Generation](#batch-icon-generation)
 - [Icons List](#icons-list)
 
 # Example
@@ -78,6 +79,21 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
     <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
+
+# Batch Icon Generation
+
+Drop source image files (`.webp`, `.png`, `.jpg`, `.jpeg`, or `.svg`) into `incoming-icons/`, then run:
+
+```bash
+npm run icons:batch -- --input incoming-icons --output icons --size 256 --radius 60 --padding 24 --dark '#242938' --light '#F4F2ED'
+```
+
+This command does all of the following:
+
+1. Converts each source file into themed SVG icon tiles.
+2. Creates `Name-Dark.svg` and `Name-Light.svg` in `icons/`.
+3. Applies rounded corners (`--radius`) and inner spacing (`--padding`).
+4. Runs the build step to refresh `dist/icons.json`.
 
 # Icons List
 

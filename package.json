@@ -6,7 +6,10 @@
 	"scripts": {
 		"dev": "node build.js && miniflare --watch",
 		"build": "node build.js",
-		"deploy": "node build.js && wrangler publish"
+		"deploy": "node build.js && wrangler publish",
+		"icons:generate": "node scripts/generate-themed-icons.js",
+		"icons:dry-run": "node scripts/generate-themed-icons.js --dry-run",
+		"icons:batch": "node scripts/generate-and-build-icons.js"
 	},
 	"devDependencies": {
 		"@cloudflare/wrangler": "^1.19.8",
