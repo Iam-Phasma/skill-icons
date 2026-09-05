@@ -111,6 +111,12 @@ Rules used by the generator:
 
 Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!
 
+Jump to:
+[A](#icons-a) | [B](#icons-b) | [C](#icons-c) | [D](#icons-d) | [E](#icons-e) | [F](#icons-f) | [G](#icons-g) | [H](#icons-h) | [I](#icons-i) | [J](#icons-j) | [K](#icons-k) | [L](#icons-l) | [M](#icons-m) | [N](#icons-n) | [O](#icons-o) | [P](#icons-p) | [Q](#icons-q) | [R](#icons-r) | [S](#icons-s) | [T](#icons-t) | [U](#icons-u) | [V](#icons-v) | [W](#icons-w) | [X](#icons-x) | [Y](#icons-y) | [Z](#icons-z)
+
+<a id="icons-a"></a>
+## A
+
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 | `ableton` | <img src="./icons/Ableton-Light.svg" width="48"> |
@@ -137,6 +143,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `aws` | <img src="./icons/AWS-Light.svg" width="48"> |
 | `azul` | <img src="./icons/Azul.svg" width="48"> |
 | `azure` | <img src="./icons/Azure-Light.svg" width="48"> |
+
+<a id="icons-b"></a>
+## B
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `babel` | <img src="./icons/Babel.svg" width="48"> |
 | `bash` | <img src="./icons/Bash-Light.svg" width="48"> |
 | `bevy` | <img src="./icons/Bevy-Light.svg" width="48"> |
@@ -145,6 +157,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `bootstrap` | <img src="./icons/Bootstrap.svg" width="48"> |
 | `bsd` | <img src="./icons/BSD-Light.svg" width="48"> |
 | `bun` | <img src="./icons/Bun-Light.svg" width="48"> |
+
+<a id="icons-c"></a>
+## C
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `c` | <img src="./icons/C.svg" width="48"> |
 | `cassandra` | <img src="./icons/Cassandra-Light.svg" width="48"> |
 | `chatgpt` | <img src="./icons/ChatGPT-Light.svg" width="48"> |
@@ -162,6 +180,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `css` | <img src="./icons/CSS.svg" width="48"> |
 | `cursor` | <img src="./icons/Cursor-Light.svg" width="48"> |
 | `cypress` | <img src="./icons/Cypress-Light.svg" width="48"> |
+
+<a id="icons-d"></a>
+## D
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `d3` | <img src="./icons/D3-Light.svg" width="48"> |
 | `dart` | <img src="./icons/Dart-Light.svg" width="48"> |
 | `debian` | <img src="./icons/Debian-Light.svg" width="48"> |
@@ -175,6 +199,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `docker` | <img src="./icons/Docker.svg" width="48"> |
 | `dotnet` | <img src="./icons/DotNet.svg" width="48"> |
 | `dynamodb` | <img src="./icons/DynamoDB-Light.svg" width="48"> |
+
+<a id="icons-e"></a>
+## E
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `eclipse` | <img src="./icons/Eclipse-Light.svg" width="48"> |
 | `elasticsearch` | <img src="./icons/Elasticsearch-Light.svg" width="48"> |
 | `electron` | <img src="./icons/Electron.svg" width="48"> |
@@ -185,6 +215,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `ember` | <img src="./icons/Ember.svg" width="48"> |
 | `emotion` | <img src="./icons/Emotion-Light.svg" width="48"> |
 | `expressjs` | <img src="./icons/ExpressJS-Light.svg" width="48"> |
+
+<a id="icons-f"></a>
+## F
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `fastapi` | <img src="./icons/FastAPI.svg" width="48"> |
 | `fediverse` | <img src="./icons/Fediverse-Light.svg" width="48"> |
 | `figma` | <img src="./icons/Figma-Light.svg" width="48"> |
@@ -193,6 +229,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `flutter` | <img src="./icons/Flutter-Light.svg" width="48"> |
 | `forth` | <img src="./icons/Forth.svg" width="48"> |
 | `fortran` | <img src="./icons/Fortran.svg" width="48"> |
+
+<a id="icons-g"></a>
+## G
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `gamemakerstudio` | <img src="./icons/GameMakerStudio.svg" width="48"> |
 | `gatsby` | <img src="./icons/Gatsby.svg" width="48"> |
 | `gcp` | <img src="./icons/GCP-Light.svg" width="48"> |
@@ -212,6 +254,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `grok` | <img src="./icons/Grok.svg" width="48"> |
 | `gtk` | <img src="./icons/GTK-Light.svg" width="48"> |
 | `gulp` | <img src="./icons/Gulp.svg" width="48"> |
+
+<a id="icons-h"></a>
+## H
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `haskell` | <img src="./icons/Haskell-Light.svg" width="48"> |
 | `haxe` | <img src="./icons/Haxe-Light.svg" width="48"> |
 | `haxeflixel` | <img src="./icons/HaxeFlixel-Light.svg" width="48"> |
@@ -220,21 +268,45 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `html` | <img src="./icons/HTML.svg" width="48"> |
 | `htmx` | <img src="./icons/Htmx-Light.svg" width="48"> |
 | `huggingface` | <img src="./icons/HuggingFace-Light.svg" width="48"> |
+
+<a id="icons-i"></a>
+## I
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `idea` | <img src="./icons/Idea-Light.svg" width="48"> |
 | `illustrator` | <img src="./icons/Illustrator.svg" width="48"> |
 | `instagram` | <img src="./icons/Instagram.svg" width="48"> |
 | `ipfs` | <img src="./icons/IPFS-Light.svg" width="48"> |
+
+<a id="icons-j"></a>
+## J
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `java` | <img src="./icons/Java-Light.svg" width="48"> |
 | `javascript` | <img src="./icons/JavaScript.svg" width="48"> |
 | `jenkins` | <img src="./icons/Jenkins-Light.svg" width="48"> |
 | `jest` | <img src="./icons/Jest.svg" width="48"> |
 | `jquery` | <img src="./icons/JQuery.svg" width="48"> |
 | `julia` | <img src="./icons/Julia-Light.svg" width="48"> |
+
+<a id="icons-k"></a>
+## K
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `kafka` | <img src="./icons/Kafka.svg" width="48"> |
 | `kali` | <img src="./icons/Kali-Light.svg" width="48"> |
 | `kotlin` | <img src="./icons/Kotlin-Light.svg" width="48"> |
 | `ktor` | <img src="./icons/Ktor-Light.svg" width="48"> |
 | `kubernetes` | <img src="./icons/Kubernetes.svg" width="48"> |
+
+<a id="icons-l"></a>
+## L
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `laravel` | <img src="./icons/Laravel-Light.svg" width="48"> |
 | `latex` | <img src="./icons/LaTeX-Light.svg" width="48"> |
 | `less` | <img src="./icons/Less-Light.svg" width="48"> |
@@ -243,6 +315,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `lit` | <img src="./icons/Lit-Light.svg" width="48"> |
 | `lovable` | <img src="./icons/Lovable-Light.svg" width="48"> |
 | `lua` | <img src="./icons/Lua-Light.svg" width="48"> |
+
+<a id="icons-m"></a>
+## M
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `markdown` | <img src="./icons/Markdown-Light.svg" width="48"> |
 | `mastodon` | <img src="./icons/Mastodon-Light.svg" width="48"> |
 | `materialui` | <img src="./icons/MaterialUI-Light.svg" width="48"> |
@@ -254,6 +332,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `misskey` | <img src="./icons/Misskey-Light.svg" width="48"> |
 | `mongodb` | <img src="./icons/MongoDB.svg" width="48"> |
 | `mysql` | <img src="./icons/MySQL-Light.svg" width="48"> |
+
+<a id="icons-n"></a>
+## N
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `neovim` | <img src="./icons/NeoVim-Light.svg" width="48"> |
 | `nestjs` | <img src="./icons/NestJS-Light.svg" width="48"> |
 | `netlify` | <img src="./icons/Netlify-Light.svg" width="48"> |
@@ -266,12 +350,24 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `notion` | <img src="./icons/Notion-Light.svg" width="48"> |
 | `npm` | <img src="./icons/Npm-Light.svg" width="48"> |
 | `nuxtjs` | <img src="./icons/NuxtJS-Light.svg" width="48"> |
+
+<a id="icons-o"></a>
+## O
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `obsidian` | <img src="./icons/Obsidian-Light.svg" width="48"> |
 | `ocaml` | <img src="./icons/OCaml.svg" width="48"> |
 | `octave` | <img src="./icons/Octave-Light.svg" width="48"> |
 | `opencv` | <img src="./icons/OpenCV-Light.svg" width="48"> |
 | `openshift` | <img src="./icons/OpenShift.svg" width="48"> |
 | `openstack` | <img src="./icons/OpenStack-Light.svg" width="48"> |
+
+<a id="icons-p"></a>
+## P
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `p5js` | <img src="./icons/p5js.svg" width="48"> |
 | `perl` | <img src="./icons/Perl.svg" width="48"> |
 | `perplexity` | <img src="./icons/Perplexity.svg" width="48"> |
@@ -294,8 +390,20 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `pycharm` | <img src="./icons/PyCharm-Light.svg" width="48"> |
 | `python` | <img src="./icons/Python-Light.svg" width="48"> |
 | `pytorch` | <img src="./icons/PyTorch-Light.svg" width="48"> |
+
+<a id="icons-q"></a>
+## Q
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `qt` | <img src="./icons/QT-Light.svg" width="48"> |
 | `qwen` | <img src="./icons/Qwen.svg" width="48"> |
+
+<a id="icons-r"></a>
+## R
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `r` | <img src="./icons/R-Light.svg" width="48"> |
 | `rabbitmq` | <img src="./icons/RabbitMQ-Light.svg" width="48"> |
 | `rails` | <img src="./icons/Rails.svg" width="48"> |
@@ -315,6 +423,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `ros` | <img src="./icons/ROS-Light.svg" width="48"> |
 | `ruby` | <img src="./icons/Ruby.svg" width="48"> |
 | `rust` | <img src="./icons/Rust.svg" width="48"> |
+
+<a id="icons-s"></a>
+## S
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `sass` | <img src="./icons/Sass.svg" width="48"> |
 | `scala` | <img src="./icons/Scala-Light.svg" width="48"> |
 | `scikitlearn` | <img src="./icons/SciKitLearn-Light.svg" width="48"> |
@@ -336,6 +450,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `svg` | <img src="./icons/SVG-Light.svg" width="48"> |
 | `swift` | <img src="./icons/Swift.svg" width="48"> |
 | `symfony` | <img src="./icons/Symfony-Light.svg" width="48"> |
+
+<a id="icons-t"></a>
+## T
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `tailwindcss` | <img src="./icons/TailwindCSS-Light.svg" width="48"> |
 | `tauri` | <img src="./icons/Tauri-Light.svg" width="48"> |
 | `tensorflow` | <img src="./icons/TensorFlow-Light.svg" width="48"> |
@@ -343,9 +463,21 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `threejs` | <img src="./icons/ThreeJS-Light.svg" width="48"> |
 | `twitter` | <img src="./icons/Twitter.svg" width="48"> |
 | `typescript` | <img src="./icons/TypeScript.svg" width="48"> |
+
+<a id="icons-u"></a>
+## U
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `ubuntu` | <img src="./icons/Ubuntu-Light.svg" width="48"> |
 | `unity` | <img src="./icons/Unity-Light.svg" width="48"> |
 | `unrealengine` | <img src="./icons/UnrealEngine.svg" width="48"> |
+
+<a id="icons-v"></a>
+## V
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `v` | <img src="./icons/V-Light.svg" width="48"> |
 | `vala` | <img src="./icons/Vala.svg" width="48"> |
 | `vercel` | <img src="./icons/Vercel-Light.svg" width="48"> |
@@ -358,6 +490,12 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `vscodium` | <img src="./icons/VSCodium-Light.svg" width="48"> |
 | `vuejs` | <img src="./icons/VueJS-Light.svg" width="48"> |
 | `vuetify` | <img src="./icons/Vuetify-Light.svg" width="48"> |
+
+<a id="icons-w"></a>
+## W
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `webassembly` | <img src="./icons/WebAssembly.svg" width="48"> |
 | `webflow` | <img src="./icons/Webflow.svg" width="48"> |
 | `webpack` | <img src="./icons/Webpack-Light.svg" width="48"> |
@@ -366,9 +504,27 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 | `windows` | <img src="./icons/Windows-Light.svg" width="48"> |
 | `wordpress` | <img src="./icons/Wordpress.svg" width="48"> |
 | `workers` | <img src="./icons/Workers-Light.svg" width="48"> |
+
+<a id="icons-x"></a>
+## X
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `xd` | <img src="./icons/XD.svg" width="48"> |
+
+<a id="icons-y"></a>
+## Y
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `yarn` | <img src="./icons/Yarn-Light.svg" width="48"> |
 | `yew` | <img src="./icons/Yew-Light.svg" width="48"> |
+
+<a id="icons-z"></a>
+## Z
+
+|      Icon ID       |                         Icon                          |
+| :----------------: | :---------------------------------------------------: |
 | `zig` | <img src="./icons/Zig-Light.svg" width="48"> |
 ---
 

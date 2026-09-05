@@ -60,6 +60,44 @@ function buildIconsTable(icons) {
   return lines.join('\n');
 }
 
+function buildGroupedIconsContent(icons) {
+  const grouped = new Map();
+
+  for (const icon of icons) {
+    const firstChar = icon.id.charAt(0).toUpperCase();
+    const groupKey = /[A-Z]/.test(firstChar) ? firstChar : '#';
+    if (!grouped.has(groupKey)) grouped.set(groupKey, []);
+    grouped.get(groupKey).push(icon);
+  }
+
+  const orderedKeys = [
+    ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(key => grouped.has(key)),
+    ...(grouped.has('#') ? ['#'] : []),
+  ];
+
+  const jumpLinks = orderedKeys
+    .map(key => {
+      const anchor = key === '#' ? 'icons-num' : `icons-${key.toLowerCase()}`;
+      return `[${key}](#${anchor})`;
+    })
+    .join(' | ');
+
+  const lines = [];
+  lines.push('Jump to:');
+  lines.push(jumpLinks || 'No icons found.');
+
+  for (const key of orderedKeys) {
+    const anchor = key === '#' ? 'icons-num' : `icons-${key.toLowerCase()}`;
+    lines.push('');
+    lines.push(`<a id="${anchor}"></a>`);
+    lines.push(`## ${key}`);
+    lines.push('');
+    lines.push(buildIconsTable(grouped.get(key)));
+  }
+
+  return lines.join('\n');
+}
+
 function syncReadme() {
   const readme = fs.readFileSync(README_PATH, 'utf8');
   const start = readme.indexOf(ICONS_SECTION_HEADER);
@@ -74,14 +112,14 @@ function syncReadme() {
   }
 
   const icons = collectDisplayIcons();
-  const table = buildIconsTable(icons);
+  const groupedContent = buildGroupedIconsContent(icons);
 
   const replacement = [
     '# Icons List',
     '',
     "Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!",
     '',
-    table,
+    groupedContent,
   ].join('\n');
 
   const updated = readme.slice(0, start) + replacement + readme.slice(end);
