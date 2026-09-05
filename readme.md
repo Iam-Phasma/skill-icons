@@ -109,10 +109,10 @@ Rules used by the generator:
 
 # Icons List
 
-Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!
+Here's a list of all the icons currently supported.
 
 Jump to:
-[A](#icons-a) | [B](#icons-b) | [C](#icons-c) | [D](#icons-d) | [E](#icons-e) | [F](#icons-f) | [G](#icons-g) | [H](#icons-h) | [I](#icons-i) | [J](#icons-j) | [K](#icons-k) | [L](#icons-l) | [M](#icons-m) | [N](#icons-n) | [O](#icons-o) | [P](#icons-p) | [Q](#icons-q) | [R](#icons-r) | [S](#icons-s) | [T](#icons-t) | [U](#icons-u) | [V](#icons-v) | [W](#icons-w) | [X](#icons-x) | [Y](#icons-y) | [Z](#icons-z)
+[A](#icons-a) • [B](#icons-b) • [C](#icons-c) • [D](#icons-d) • [E](#icons-e) • [F](#icons-f) • [G](#icons-g) • [H](#icons-h) • [I](#icons-i) • [J](#icons-j) • [K](#icons-k) • [L](#icons-l) • [M](#icons-m) • [N](#icons-n) • [O](#icons-o) • [P](#icons-p) • [Q](#icons-q) • [R](#icons-r) • [S](#icons-s) • [T](#icons-t) • [U](#icons-u) • [V](#icons-v) • [W](#icons-w) • [X](#icons-x) • [Y](#icons-y) • [Z](#icons-z)
 
 <a id="icons-a"></a>
 ## A
